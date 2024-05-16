@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import './App.css'
-import HookUseState from './Components/HookUseState'
-import HookUseEffect from './Components/HookUseEffect'
-import HookReducer from './Components/HookReducer'
-import HookUseImperative from './Components/HookUseImperative'
-import HookReactMemo from './Components/HookReactMemo'
+import Hookstate from './CopyComponets/Hookstate'
+
 
 function App() {
 
   return (
     <>
-     <HookReactMemo/>
+     <Hookstate/>
     </>
   )
 }
